@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  padding: 1.25rem;
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  max-width: 25.125rem;
+  border-radius: 20px;
+}
+
+img {
+  aspect-ratio: 1;
+  border-radius: 20px;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
